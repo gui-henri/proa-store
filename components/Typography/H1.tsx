@@ -5,7 +5,7 @@ type H1Props = {
 
 export default function H1({ children, light = false }: H1Props) {
     return (
-        <h1 className={`text-6xl font-bold text-gray-800 dark:text-gray-100`}>
+        <h1 className={`text-6xl font-bold text-black`}>
             {children}
         </h1>
     )
