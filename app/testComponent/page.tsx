@@ -10,7 +10,6 @@ export default async function TestComponent() {
             title="Mais vendidos" 
             ProductComponent={HomePageProduct} 
             />
-            <Footer />
         </div>
     )
 }
