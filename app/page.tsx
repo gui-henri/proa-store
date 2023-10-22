@@ -1,5 +1,7 @@
+import H1 from "@/components/Typography/H1";
+
 export default function Home() {
   return (
-    <h1>Hello World</h1>
+    <H1>Hellow UwUrld</H1>
   )
 }
