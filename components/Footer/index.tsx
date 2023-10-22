@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = (): JSX.Element => {
   return (
-    <footer className="bg-[#00b8f2] text-[#ffffff] font-text-md-bold">
+    <footer className="bg-[#00b8f2] text-white font-text-md-bold">
       <div className="container mx-auto py-8">
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="text-center lg:text-left mb-4 lg:mb-0">
@@ -24,7 +24,7 @@ const Footer = (): JSX.Element => {
           </div>
           <div className="text-center lg:text-left mb-4 lg:mb-0">
             <h2 className="text-lg text-[#1c3380]">MAPA DO SITE</h2>
-            <p className="text-[#ffffff] font-bold">PRECISA SER ATUALIZADO</p>
+            <p className="text-white font-bold">PRECISA SER ATUALIZADO</p>
           </div>
           <div className="text-center lg:text-left">
             <h2 className="text-lg text-[#1c3380]">Newsletter</h2>
@@ -33,14 +33,14 @@ const Footer = (): JSX.Element => {
               <br />
               Inscreva-se na nossa newsletter!
             </p>
-            <div className="bg-[#00b8f2] rounded-[4px] border border-solid border-[#ffffff] flex mt-4">
+            <div className="bg-[#00b8f2] rounded-md border border-solid border-[#ffffff] flex mt-4">
               <input
                 type="email"
                 id="email"
-                className="[font-family:'Inter-Bold',Helvetica] font-bold text-[#ffffff] p-2 bg-[#00b8f2] rounded-[4px] m-2"
+                className="font-bold text-white p-2 bg-[#00b8f2] rounded-md m-2"
                 placeholder="E-mail"
               />
-              <button className="[font-family:'Inter-Bold',Helvetica] font-bold text-[#00b8f2] p-2 bg-white rounded-[4px]">
+              <button className="font-bold text-[#00b8f2] p-2 bg-white rounded-md">
                 INSCREVER
               </button>
             </div>
