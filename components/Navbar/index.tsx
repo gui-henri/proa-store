@@ -24,7 +24,7 @@ const Navbar = () => {
                 <span className="font-semibold text-xl tracking-tight">Lojinha do PROA</span>
             </div>
             <div className="w-full flex-grow flex items-center">
-                <div className="text-sm flex-grow">
+                <div className="text-sm flex flex-grow">
                 <a href="#responsive-header" className="block mt-0 text-white hover:text-gray-300 mr-6">
                     Início
                 </a>
