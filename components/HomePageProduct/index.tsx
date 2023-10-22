@@ -4,7 +4,7 @@ import { Rating } from "@smastrom/react-rating"
 
 import '@smastrom/react-rating/style.css'
 
-interface HomePageProductProps extends Product {};
+interface HomePageProductProps extends Product{};
 
 export default function HomePageProduct({ 
     productId, 

@@ -1,11 +1,13 @@
 export type Product = {
     productId: number;
     productName: string;
-    productPrice: number;
     productImage: string;
+    productPrice: number;
     avaliationQuantity: number;
     productDescription: string;
     avaliation: number;
+    productAuthor: string;
+    productVoted: boolean;
 }
 
 type ProductCarouselProps = {
@@ -26,7 +28,9 @@ export default function ProductCarousel({ title, ProductComponent, className }: 
             avaliation: 4.5,
             avaliationQuantity: 157,
             productId: 1,
-            productImage: '/images/caneca.png'
+            productImage: '/images/caneca.png',
+            productAuthor: 'João Silva',
+            productVoted: true
 
         } as Product,
         {
@@ -36,7 +40,9 @@ export default function ProductCarousel({ title, ProductComponent, className }: 
             avaliation: 4.5,
             avaliationQuantity: 194,
             productId: 2,
-            productImage: '/images/bottom.png'
+            productImage: '/images/bottom.png',
+            productAuthor: 'Maria',
+            productVoted: false
 
         } as Product,
         {
@@ -46,7 +52,9 @@ export default function ProductCarousel({ title, ProductComponent, className }: 
             avaliation: 4.5,
             avaliationQuantity: 157,
             productId: 3,
-            productImage: '/images/camisa.png'
+            productImage: '/images/camisa.png',
+            productAuthor: 'Arthur',
+            productVoted: true
 
         } as Product,
         {
@@ -56,7 +64,9 @@ export default function ProductCarousel({ title, ProductComponent, className }: 
             avaliation: 4.5,
             avaliationQuantity: 157,
             productId: 4,
-            productImage: '/images/agenda.png'
+            productImage: '/images/agenda.png',
+            productAuthor: 'Camila',
+            productVoted: true
         } as Product
     ]
 
