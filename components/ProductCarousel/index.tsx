@@ -10,10 +10,11 @@ export type Product = {
 
 type ProductCarouselProps = {
     title?: string;
+    className?: string;
     ProductComponent: React.ComponentType<Product>;
 }
 
-export default function ProductCarousel({ title, ProductComponent }: ProductCarouselProps) {
+export default function ProductCarousel({ title, ProductComponent, className }: ProductCarouselProps) {
 
     // TODO: fetch the products from database
 
@@ -60,7 +61,7 @@ export default function ProductCarousel({ title, ProductComponent }: ProductCaro
     ]
 
     return (
-        <div>
+        <div className={className}>
             <h2 className="font-bold text-3xl">{title}</h2>
             <div className="flex w-full justify-between p-12">
                 {
