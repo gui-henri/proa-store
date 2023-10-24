@@ -1,11 +1,13 @@
 export type Product = {
     productId: number;
     productName: string;
-    productPrice: number;
     productImage: string;
+    productPrice: number;
     avaliationQuantity: number;
     productDescription: string;
     avaliation: number;
+    productAuthor: string;
+    productVoted: boolean;
     author?: string;
     numVotes?: number;
 }
@@ -30,6 +32,8 @@ export default function ProductCarousel({ title, ProductComponent, className, mo
             avaliationQuantity: 157,
             productId: 1,
             productImage: '/images/caneca.png',
+            productAuthor: 'João Silva',
+            productVoted: true,
             author: 'João Pedro',
             numVotes: 10
 
@@ -42,6 +46,8 @@ export default function ProductCarousel({ title, ProductComponent, className, mo
             avaliationQuantity: 194,
             productId: 2,
             productImage: '/images/bottom.png',
+            productAuthor: 'Maria',
+            productVoted: false,
             author: 'José Maria',
             numVotes: 1029
 
@@ -54,6 +60,8 @@ export default function ProductCarousel({ title, ProductComponent, className, mo
             avaliationQuantity: 157,
             productId: 3,
             productImage: '/images/camisa.png',
+            productAuthor: 'Arthur',
+            productVoted: true,
             author: 'Maria José',
             numVotes: 99
 
@@ -66,6 +74,8 @@ export default function ProductCarousel({ title, ProductComponent, className, mo
             avaliationQuantity: 157,
             productId: 4,
             productImage: '/images/agenda.png',
+            productAuthor: 'Camila',
+            productVoted: true,
             author: 'Enzo Valentino',
             numVotes: 0
         } as Product

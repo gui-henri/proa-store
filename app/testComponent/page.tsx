@@ -1,4 +1,6 @@
 import Carousel from "@/components/Carousel";
+import ContestProduct from "@/components/ContestProduct";
+import ProductCarousel from "@/components/ProductCarousel";
 import H3 from "@/components/Typography/H3";
 import Image from "next/image";
 
@@ -22,6 +24,7 @@ export default async function TestComponent() {
                     </div>
                 </div>
             </Carousel>
+            <ProductCarousel ProductComponent={ContestProduct}></ProductCarousel>
         </div>
     )
 }
