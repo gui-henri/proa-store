@@ -32,11 +32,11 @@ const Navbar = () => {
                 <Link href="#" className="block mt-0 text-white hover:text-gray-300 mr-6">
                     Produtos
                 </Link>
-                <Link href="/votacao" className="block mt-0 text-white hover:text-gray-300 mr-6">
+                <Link href="/productPage" className="block mt-0 text-white hover:text-gray-300 mr-6">
                     Votação
                 </Link>
-                <Link href="/productPage" className="block mt-0 text-white hover:text-gray-300">
-                    Envie seu design
+                <Link href="/votacao" className="block mt-0 text-white hover:text-gray-300">
+                    Criar votação
                 </Link>
                 </div>
                 <div>
