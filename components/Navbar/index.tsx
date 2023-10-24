@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { LoginModal } from '../LoginModal';
 import { RegisterModal } from '../RegisterModal';
+import Link from 'next/link';
 
 const Navbar = () => {
 
@@ -21,22 +22,22 @@ const Navbar = () => {
         <div className="flex items-center justify-between bg-[#1C3380] p-6">
             <div className="flex items-center flex-shrink-0 text-white mr-6 ml-6">
                 <Image className="fill-current h-8 w-8 mr-2" width="54" height="54" src="\images\logoproatransparente.svg" alt='logo do PROA' />
-                <span className="font-semibold text-xl tracking-tight">Lojinha do PROA</span>
+                <Link href="/"><span className="font-semibold text-xl tracking-tight">Lojinha do PROA</span></Link>
             </div>
             <div className="w-full flex-grow flex items-center">
                 <div className="text-sm flex flex-grow">
-                <a href="#responsive-header" className="block mt-0 text-white hover:text-gray-300 mr-6">
+                <Link href="/" className="block mt-0 text-white hover:text-gray-300 mr-6">
                     Início
-                </a>
-                <a href="#responsive-header" className="block mt-0 text-white hover:text-gray-300 mr-6">
+                </Link>
+                <Link href="#" className="block mt-0 text-white hover:text-gray-300 mr-6">
                     Produtos
-                </a>
-                <a href="#responsive-header" className="block mt-0 text-white hover:text-gray-300 mr-6">
+                </Link>
+                <Link href="/votacao" className="block mt-0 text-white hover:text-gray-300 mr-6">
                     Votação
-                </a>
-                <a href="#responsive-header" className="block mt-0 text-white hover:text-gray-300">
+                </Link>
+                <Link href="/productPage" className="block mt-0 text-white hover:text-gray-300">
                     Envie seu design
-                </a>
+                </Link>
                 </div>
                 <div>
                     {loginOpen && <LoginModal onClose={handleLoginPopup} />}
