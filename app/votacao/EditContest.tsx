@@ -1,7 +1,9 @@
 import EditIcon from '@mui/icons-material/Edit';
+import VotingProduct from '@/components/VotingProduct';
 
 import H3 from "@/components/Typography/H3";
-import { EditCalendar } from '@mui/icons-material';
+import { EditCalendar, Search } from '@mui/icons-material';
+import ProductCarousel from '@/components/ProductCarousel';
 
 export default function EditContest() {
     return (
@@ -47,6 +49,16 @@ export default function EditContest() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div>
+                    <div className='flex gap-8'>
+                        <H3>Produtos mais votados</H3>
+                        <div className='w-96 border-2 border-gray-500 rounded-md p-2'>
+                            <Search htmlColor='rgb(107 114 128)'/>
+                            <input  type="text" placeholder='Pesquise um produto' />
+                        </div>
+                    </div>
+                    <ProductCarousel mode='column' ProductComponent={VotingProduct} />
                 </div>
             </div>
         </div>
