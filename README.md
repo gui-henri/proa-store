@@ -14,7 +14,8 @@ A Lojinha PROA proporciona aos nossos alunos a oportunidade de transformar suas 
 
 ## Utilização
 
-O projeto está disponível online através deste [link.](https://proa-store.vercel.app)
+O protótipo com todas as telas do figma está disponível [aqui.](https://www.figma.com/proto/KrN23eUAQTYn74zn5ibUOJ/Desafio-Visagio%3A-Prot%C3%B3tipo?page-id=925%3A34508&type=design&node-id=6420-5053&viewport=415%2C196%2C0.13&t=auROTllX7iSsNaz7-1&scaling=min-zoom&starting-point-node-id=6420%3A5053&show-proto-sidebar=1&mode=design)
+O projeto também está disponível online através deste [link.](https://proa-store.vercel.app)
 
 Na tela inicial, o usuário se depara com uma estrutura de e-commerce, onde ele pode explorar produtos e ir para a página de compra. 
 
