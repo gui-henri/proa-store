@@ -13,14 +13,9 @@ export default function Home() {
           <div>
             <Image src={'/images/carrossel.png'} alt="A draw of three happy peaple" width={1280} height={400} />
             <div className="absolute right-0 z-10 top-20 w-96 mt-[-16px] flex flex-col">
-                <H3>Lorem Ipsum si dolor Et amet!</H3>
+                <H3>Envie seus designs, ganhe visibilidade e uma renda extra!</H3>
                 <p className="text-base w-[327px] mt-4">
-                    Envie seu design para concorrer a votação.
-                    O design ganhador será transformado em
-                    produto e você receberá parte das vendas.
-                    Esse texto é temporário e será trocado. No
-                    Momento não tenho ideia do que por aqui,
-                    mas precisamos de mais espaço. 
+                É a sua chance de brilhar e inspirar o mundo com sua criatividade. Vamos mostrar ao mundo o poder do talento PROA - participe agora e faça parte dessa jornada incrível! Envie seu design e deixe sua marca na Lojinha PROA hoje mesmo! 
                 </p>
                 <button className="bg-[#1c3380] text-white p-3 rounded-lg w-48 self-end mt-4 mr-14">Veja como participar</button>
             </div>
