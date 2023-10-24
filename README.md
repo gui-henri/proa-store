@@ -8,9 +8,9 @@ Os alunos participantes dos concursos têm um perfil na loja, que funciona como 
 
 ## Propósito
 
-Parágrafo 1 sobre o propósito do projeto. Explique direitinho.
+A Lojinha PROA vai muito mais além de ser apenas um e-commerce. Temos o propósito de promover o PROA por meio de produtos criativos e inovadores, que contribuam para o aumento da renda da organização, oferecer uma plataforma para os alunos aplicarem suas habilidades em design e a divulgar o PROA e as oportunidades oferecidas.
 
-Parágrafo 2 sorbe o propósito do projeto. Explique do melhor jeito que puder
+A Lojinha PROA proporciona aos nossos alunos a oportunidade de transformar suas ideias criativas em produtos reais, permitindo que eles não apenas desenvolvam suas habilidades em design, mas também ganhem uma renda por meio das vendas. Nosso objetivo é não apenas fornecer produtos de qualidade aos nossos clientes, mas também destacar o talento dos nossos alunos, incentivando-os a explorar seu potencial no campo do design. Além disso, os produtos são encorajados a serem criativos, de forma a chamar a atenção do público e contribuir para a divulgação do PROA.
 
 ## Utilização
 
